@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model TL59NF160Q
+#/1229443/1334110/2.50/2/2/Switch
+DEF TL59NF160Q S 0 30 Y Y 1 F N
+F0 "S" 750 300 50 H V L CNN
+F1 "TL59NF160Q" 750 200 50 H V L CNN
+F2 "TL59NF160Q" 750 100 50 H I L CNN
+F3 "https://configured-product-images.s3.amazonaws.com/2D/specs/TL59NF160Q.pdf" 750 0 50 H I L CNN
+F4 "TACT, 50mA 12VDC, SPST-NO Off-(On), Through Hole PC Pin" 750 -100 50 H I L CNN "Description"
+F5 "5" 750 -200 50 H I L CNN "Height"
+F6 "612-TL59NF160Q" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/E-Switch/TL59NF160Q?qs=QtyuwXswaQgJqDRR55vEFA%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "E-Switch" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TL59NF160Q" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X NO_1 1 0 0 200 R 50 50 0 0 P
+X NO_2 2 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

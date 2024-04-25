@@ -1,0 +1,11 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+C1,0201,1,4.7uF,
+C2,0201,1,220nF,
+C3,0201,1,1uF,
+C4,0201,1,100nF,
+C5,0201,1,10pF,
+C6,0201,1,47uF,
+L1,L_7.3x7.3_H4.5,1,33uH,
+"R1, R2",0201,2,100kOhm,
+R3,0201,1,24.9kOhm,
+U2,Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias,1,LMR36510ADDA,

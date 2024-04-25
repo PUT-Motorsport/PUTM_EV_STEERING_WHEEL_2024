@@ -1,0 +1,23 @@
+# STM32CubeIDE
+/firmware/.settings/
+/firmware/Release/
+/firmware/Debug/
+/firmware/Drivers/
+/firmware/Middlewares/
+/firmware/*.launch
+
+# KiCad
+/hardware/*/*-backups/
+/hardware/*/*.kicad_prl
+/hardware/*/fp-info-cache
+/hardware/*/\#auto_saved_files\#
+
+# Interactive HTML BOM
+/hardware/*/bom/
+
+# Fabrication Toolkit
+/hardware/*/production/
+
+# Replicate Layout
+/hardware/*/replicate_layout.log
+

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TL59NF160Q
+D TACT, 50mA 12VDC, SPST-NO Off-(On), Through Hole PC Pin
+K
+F https://configured-product-images.s3.amazonaws.com/2D/specs/TL59NF160Q.pdf
+$ENDCMP
+#
+#End Doc Library

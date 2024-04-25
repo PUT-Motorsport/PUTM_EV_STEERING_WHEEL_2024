@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "3D")(type "KiCad")(uri "${KIPRJMOD}/hardware/TL2203EE/3D")(options "")(descr ""))
+  (lib (name "model")(type "KiCad")(uri "${KIPRJMOD}/hardware/TL59NF160Q/KiCad")(options "")(descr ""))
+  (lib (name "KiCad")(type "KiCad")(uri "${KIPRJMOD}/hardware/7914J-1-000E/KiCad")(options "")(descr ""))
+  (lib (name "Logos")(type "KiCad")(uri "${KIPRJMOD}/hardware/Logos.pretty")(options "")(descr ""))
+)
