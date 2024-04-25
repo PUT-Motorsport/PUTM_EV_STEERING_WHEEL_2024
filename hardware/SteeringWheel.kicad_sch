@@ -1575,7 +1575,7 @@
     (stroke (width 0) (type default))
     (uuid 205b6e90-ddfc-4543-9a39-ae5f25837abc)
   )
-  (wire (pts (xy 251.46 155.194) (xy 251.46 157.734))
+  (wire (pts (xy 251.46 155.194) (xy 251.46 158.115))
     (stroke (width 0) (type default))
     (uuid 20d447ef-74a6-49f8-b3bf-c0c8625689b0)
   )
@@ -1695,7 +1695,7 @@
     (stroke (width 0) (type default))
     (uuid 516d4462-cfcc-4000-b531-324b9b2890f8)
   )
-  (wire (pts (xy 98.679 173.0248) (xy 99.949 173.0248))
+  (wire (pts (xy 98.425 173.355) (xy 100.965 173.355))
     (stroke (width 0) (type default))
     (uuid 5215c2af-5de2-4821-9084-7241ce2df2c9)
   )
@@ -1752,7 +1752,7 @@
     (stroke (width 0) (type default))
     (uuid 707e5891-51ca-4888-b8c1-35d5a0471fb1)
   )
-  (wire (pts (xy 98.679 179.324) (xy 99.949 179.324))
+  (wire (pts (xy 98.425 180.975) (xy 100.965 180.975))
     (stroke (width 0) (type default))
     (uuid 71a80141-9dfa-4a0a-9b6e-173d2270efd5)
   )
@@ -2026,7 +2026,7 @@
     (stroke (width 0) (type default))
     (uuid f2360db4-d98b-4faa-aa6c-e86ef55c659b)
   )
-  (wire (pts (xy 98.679 169.6466) (xy 99.949 169.6466))
+  (wire (pts (xy 98.425 169.545) (xy 100.965 169.545))
     (stroke (width 0) (type default))
     (uuid f2c23611-b683-4b53-aee2-911d811c6d30)
   )
@@ -2042,7 +2042,7 @@
     (stroke (width 0) (type default))
     (uuid f81a16cc-19bc-4da8-9c0a-54b3001775a9)
   )
-  (wire (pts (xy 98.679 176.1236) (xy 99.949 176.1236))
+  (wire (pts (xy 98.425 177.165) (xy 100.965 177.165))
     (stroke (width 0) (type default))
     (uuid fcc6857c-a486-4c4f-afb5-1a84d6d023b0)
   )
@@ -2072,7 +2072,7 @@
     (uuid aa906996-5d70-4d8f-b5c3-cdd71749cbd9)
   )
 
-  (label "CAN_H" (at 98.679 169.6466 180) (fields_autoplaced)
+  (label "CAN_H" (at 98.425 169.545 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 0af2493b-32c0-4e8a-8e82-73cfd07f2b85)
   )
@@ -2100,7 +2100,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 39714de2-dfe7-4d4e-bbbb-18aa24f73587)
   )
-  (label "CAN_RX" (at 98.679 173.0248 180) (fields_autoplaced)
+  (label "CAN_RX" (at 98.425 173.355 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 419c6892-4b93-45fc-a97e-f0aa1ceebb4c)
   )
@@ -2108,7 +2108,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 44cfa91d-69df-4eef-af8f-b5c604fd6470)
   )
-  (label "CAN_L" (at 98.679 179.324 180) (fields_autoplaced)
+  (label "CAN_L" (at 98.425 180.975 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 49b6cfe4-c84b-4012-89f0-9b4893232e1f)
   )
@@ -2152,7 +2152,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b9fb54c8-3bba-43b2-81b5-10b4a973d844)
   )
-  (label "CAN_TX" (at 98.679 176.1236 180) (fields_autoplaced)
+  (label "CAN_TX" (at 98.425 177.165 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid bbce635a-f009-4e32-acfd-7161165cfee3)
   )
@@ -2195,7 +2195,7 @@
     (pin "1" (uuid f7623b07-858a-4498-a3a9-7568240a56cb))
     (pin "2" (uuid a9d37988-091d-4445-9723-b32dea247bf3))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "R15") (unit 1)
         )
@@ -2221,7 +2221,7 @@
     (pin "1" (uuid ba44501d-8811-4d4e-9c47-2a6610570a22))
     (pin "2" (uuid 0c9470a2-35fd-41b8-ae02-0528a56fdc9d))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "C11") (unit 1)
         )
@@ -2246,7 +2246,7 @@
     )
     (pin "1" (uuid 77407709-2218-4518-929c-3202a5612c7d))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "#PWR035") (unit 1)
         )
@@ -2272,7 +2272,7 @@
     (pin "1" (uuid 388077a4-eb2f-46f3-8b25-81325c29d40b))
     (pin "2" (uuid 8ab4e808-dd60-44d1-9722-35fc06822d8f))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "R11") (unit 1)
         )
@@ -2289,16 +2289,16 @@
     (property "Value" "SW_Push" (at 27.686 126.111 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "KiCad:7914J1000E" (at 21.336 124.206 0)
+    (property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P" (at 21.336 124.206 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 21.336 124.206 0)
+    (property "Datasheet" "https://www.mouser.pl/datasheet/2/307/en-b3u-1189599.pdf" (at 21.336 124.206 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 42d9fc32-e64e-4f4b-9748-deee6f94bfe3))
     (pin "2" (uuid 51793ce0-add0-44b3-b74e-cdd0bb62e343))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "SW1") (unit 1)
         )
@@ -2323,7 +2323,7 @@
     )
     (pin "1" (uuid 9ed6611e-8ef6-4e94-a320-1dbee774845b))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "#PWR017") (unit 1)
         )
@@ -2348,7 +2348,7 @@
     )
     (pin "1" (uuid 44e442cc-d3cb-46ef-a808-c8bfb3f90989))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "#PWR014") (unit 1)
         )
@@ -2374,7 +2374,7 @@
     (pin "1" (uuid 98bf6537-c3f4-4329-ae61-60befde6b8a2))
     (pin "2" (uuid a947d814-8501-45de-9d70-d6ec4e1fa259))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "R4") (unit 1)
         )
@@ -2399,7 +2399,7 @@
     )
     (pin "1" (uuid 03bcca97-2f25-41cd-bccf-82a954e3eaa0))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "#PWR032") (unit 1)
         )
@@ -2425,7 +2425,7 @@
     (pin "1" (uuid 9c06ff53-939c-4f72-b9c4-79afb73d7eb0))
     (pin "2" (uuid 16bcc059-d12a-4583-9005-a90f8ce36a3d))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "C14") (unit 1)
         )
@@ -2442,7 +2442,7 @@
     (property "Value" "10uL" (at 238.76 37.084 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Inductor_SMD:L_7.3x7.3_H4.5" (at 238.76 38.354 0)
+    (property "Footprint" "Inductor_SMD:L_0603_1608Metric" (at 238.76 38.354 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 238.76 38.354 0)
@@ -2451,7 +2451,7 @@
     (pin "1" (uuid 39cd0ae2-a872-4323-9baf-3757592fe0c0))
     (pin "2" (uuid 0711be37-c777-490c-8258-5f76dd896282))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "L2") (unit 1)
         )
@@ -2489,7 +2489,7 @@
           (reference "#PWR025") (unit 1)
         )
       )
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "#PWR011") (unit 1)
         )
@@ -2515,7 +2515,7 @@
     (pin "1" (uuid 1af7dd4f-6ec1-4ea9-9776-8bc00f57fc76))
     (pin "2" (uuid dd6dbd77-31c3-4752-95d0-fb6b4c5d35ba))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "D7") (unit 1)
         )
@@ -2603,7 +2603,7 @@
     (pin "8" (uuid 7b45cc76-bdb3-40f3-8682-04c3c6dae2e0))
     (pin "9" (uuid f183cddb-2565-4a6e-bc34-f8fd99d52a8b))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "U4") (unit 1)
         )
@@ -2629,7 +2629,7 @@
     (pin "1" (uuid 3f9c08ca-414e-4420-b1a1-dcc892129a59))
     (pin "2" (uuid aecfa37d-27d7-4702-86d3-813bfdbb2c51))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "D8") (unit 1)
         )
@@ -2654,7 +2654,7 @@
     )
     (pin "1" (uuid a6265325-d7d6-486c-bab9-67c1d9a57f99))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "#PWR031") (unit 1)
         )
@@ -2680,7 +2680,7 @@
     (pin "1" (uuid 16c5d9e5-628f-4a45-83f3-aae1c90aa8bb))
     (pin "2" (uuid c1942e57-b106-4046-bef9-b05d8244b81e))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "C18") (unit 1)
         )
@@ -2706,7 +2706,7 @@
     (pin "1" (uuid fdf295aa-4d45-421f-a48d-bde6bc968856))
     (pin "2" (uuid 420678b1-f706-41cc-b131-2bb022dccd64))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "C12") (unit 1)
         )
@@ -2732,34 +2732,9 @@
     (pin "1" (uuid 569f7204-f428-4934-8939-d493297033b7))
     (pin "2" (uuid 507ae252-c1df-409c-bb0e-475b1bcb259e))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "C31") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:PWR_FLAG") (at 251.46 157.734 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 9f5ea9b6-0a2d-4788-bbc7-58a9c6d813d1)
-    (property "Reference" "#FLG09" (at 251.46 159.639 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "PWR_FLAG" (at 251.46 162.814 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 251.46 157.734 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 251.46 157.734 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid dd0e1e88-6574-4828-a2dc-f3ae0f90e9e4))
-    (instances
-      (project "MOTOR"
-        (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
-          (reference "#FLG09") (unit 1)
         )
       )
     )
@@ -2783,7 +2758,7 @@
     (pin "1" (uuid 62fd5529-9343-4e85-bd75-4a2651ce8c81))
     (pin "2" (uuid f6dfc20f-bb71-4a20-9917-0bac609f9f5a))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "D9") (unit 1)
         )
@@ -2808,7 +2783,7 @@
     )
     (pin "1" (uuid cb1eab90-aec2-4ba5-ac1e-246117addf1a))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "#FLG08") (unit 1)
         )
@@ -2834,7 +2809,7 @@
     (pin "1" (uuid 78524cab-aa70-4da1-8251-37a03bd676ab))
     (pin "2" (uuid 5a0c8eec-3480-4651-afdd-0b5d437957fe))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "C9") (unit 1)
         )
@@ -2860,7 +2835,7 @@
     (pin "1" (uuid 4dec032e-5092-46a1-a1ac-bb060b49d66b))
     (pin "2" (uuid d4e194b6-8b3d-4a3a-a02d-c9b4f2b8615a))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "C10") (unit 1)
         )
@@ -2886,7 +2861,7 @@
     (pin "1" (uuid 54cb3e92-fbc1-463b-ae70-31628e9542cb))
     (pin "2" (uuid 1184c146-a24b-4c72-ad58-002d8e66e488))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "R14") (unit 1)
         )
@@ -2912,7 +2887,7 @@
     (pin "1" (uuid aae0f076-c99a-40fd-93fa-ddc8cf986143))
     (pin "2" (uuid 8170fb37-8351-4dce-b77a-b59e0a72d95b))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "C13") (unit 1)
         )
@@ -2937,7 +2912,7 @@
     )
     (pin "1" (uuid 8569e8f4-507c-49c3-8ae3-ac6a7d5cbf88))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "#PWR034") (unit 1)
         )
@@ -2963,7 +2938,7 @@
     (pin "1" (uuid ee1c1af0-c93d-43c0-b3c1-590f581d7322))
     (pin "2" (uuid 2e49fe79-473c-40ca-ba28-08e08127db16))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "D10") (unit 1)
         )
@@ -2989,7 +2964,7 @@
     (pin "1" (uuid 3f5fe8a6-1eed-4c59-ac46-621533b4f1c5))
     (pin "2" (uuid 68a72edf-708c-4ac7-b62b-8f8072098d6d))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "C32") (unit 1)
         )
@@ -3019,7 +2994,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "#PWR09") (unit 1)
         )
@@ -3044,7 +3019,7 @@
     )
     (pin "1" (uuid d17faba7-f0b1-4892-8d0a-c426e1f6ad3c))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "#PWR033") (unit 1)
         )
@@ -3077,7 +3052,7 @@
           (reference "J1") (unit 1)
         )
       )
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "JST1") (unit 1)
         )
@@ -3103,7 +3078,7 @@
     (pin "1" (uuid 605a126f-0fa5-4b2f-bf6b-a30be9d32fac))
     (pin "2" (uuid 92387939-0bc7-4fed-b30b-ddb0d748e5c5))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "R12") (unit 1)
         )
@@ -3120,7 +3095,7 @@
     (property "Value" "16MHz" (at 213.106 58.166 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm" (at 215.9 61.595 0)
+    (property "Footprint" "Crystal:Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm" (at 215.9 61.595 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 215.9 61.595 0)
@@ -3131,7 +3106,7 @@
     (pin "3" (uuid 1328d376-7a2b-41ff-8f8a-e73c39d9130c))
     (pin "4" (uuid a4df98c7-89d2-4abb-8fce-85f2cc57e8b3))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "Y1") (unit 1)
         )
@@ -3157,7 +3132,7 @@
     (pin "1" (uuid f77808ab-ed0a-4a0f-b32f-f7cb8514215a))
     (pin "2" (uuid d646f854-5d4b-4e2f-b2be-750984eb406f))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "R16") (unit 1)
         )
@@ -3182,7 +3157,7 @@
     )
     (pin "1" (uuid 8f55709f-ae05-480e-8e53-44f2585114ac))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "#PWR016") (unit 1)
         )
@@ -3208,7 +3183,7 @@
     (pin "1" (uuid 6c9dfb6f-c9d0-4daf-813b-70f7bd2f05f5))
     (pin "2" (uuid c0cad828-dd8e-4e6b-af65-c867dbaf397c))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "R13") (unit 1)
         )
@@ -3216,34 +3191,59 @@
     )
   )
 
-  (sheet (at 99.949 160.782) (size 41.7322 29.0322) (fields_autoplaced)
+  (symbol (lib_id "power:GND") (at 251.46 158.115 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f74450bb-38eb-40ea-9733-52facc5bf340)
+    (property "Reference" "#PWR015" (at 251.46 164.465 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 251.46 162.56 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 251.46 158.115 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 251.46 158.115 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e3a10422-d32a-42af-a6db-6b9bc2f8e155))
+    (instances
+      (project "SteeringWheel"
+        (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
+          (reference "#PWR015") (unit 1)
+        )
+      )
+    )
+  )
+
+  (sheet (at 100.965 160.782) (size 40.7162 29.0322) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 18d28e7d-3445-4022-b832-1432f129198e)
-    (property "Sheetname" "CAN" (at 99.949 160.0704 0)
+    (property "Sheetname" "CAN" (at 100.965 160.0704 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "CAN.kicad_sch" (at 99.949 190.3988 0)
+    (property "Sheetfile" "CAN.kicad_sch" (at 100.965 190.3988 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (pin "CAN_H" bidirectional (at 99.949 169.6466 180)
+    (pin "CAN+" bidirectional (at 100.965 169.545 180)
       (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 00457278-e936-496b-a55f-10ea60c43c21)
+      (uuid 5a1fff1f-1400-473a-ad6a-af2f61db8683)
     )
-    (pin "CAN_RX" output (at 99.949 173.0248 180)
+    (pin "CAN-" bidirectional (at 100.965 180.975 180)
       (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 01e9614e-fd22-4722-98c7-e149c15fbea9)
+      (uuid 2fee1ab4-a26c-472a-959b-a037436b0405)
     )
-    (pin "CAN_TX" input (at 99.949 176.1236 180)
+    (pin "RXD" output (at 100.965 173.355 180)
       (effects (font (size 1.27 1.27)) (justify left))
-      (uuid d3e8ba1f-7fa2-4968-b4f1-867ae8178b3d)
+      (uuid 7cfe1f2d-de27-4d70-a5a6-b951e074addc)
     )
-    (pin "CAN_L" bidirectional (at 99.949 179.324 180)
+    (pin "TXD" input (at 100.965 177.165 180)
       (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 481c2891-55c9-4f05-8ca4-2f60a432eb71)
+      (uuid 94548d71-07e6-48e6-ad33-2affeda11749)
     )
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45" (page "6"))
       )
     )
@@ -3276,7 +3276,7 @@
       (uuid f1b3b890-42a9-4973-b7c9-a2fc6d072afa)
     )
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45" (page "5"))
       )
     )
@@ -3293,7 +3293,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45" (page "2"))
       )
     )

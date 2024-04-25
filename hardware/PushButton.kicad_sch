@@ -492,7 +492,7 @@
     (pin "1" (uuid 3b11be55-9812-4617-aaa2-cd983fd61e89))
     (pin "2" (uuid 381656ec-abdc-4c7f-918c-5bde000c8856))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/2c7b14cc-b1b5-4ad4-9366-eeba48ece104"
           (reference "R31") (unit 1)
         )
@@ -518,7 +518,7 @@
     (pin "1" (uuid 9fe5dbb1-e30a-492d-b63e-4bbf3a19199b))
     (pin "2" (uuid 15451874-e384-4a98-ad19-fe32c8e6408e))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/2c7b14cc-b1b5-4ad4-9366-eeba48ece104"
           (reference "R33") (unit 1)
         )
@@ -544,7 +544,7 @@
     (pin "1" (uuid 3ea9458c-738a-452b-8ebd-4cd0d27829eb))
     (pin "2" (uuid 0e8542f1-f913-414b-a7c9-e2242fbaefb5))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/2c7b14cc-b1b5-4ad4-9366-eeba48ece104"
           (reference "R30") (unit 1)
         )
@@ -570,7 +570,7 @@
     (pin "1" (uuid 1c9a5905-f0aa-4b22-a546-dba94af4d59c))
     (pin "2" (uuid f419580e-c453-4cd1-97f5-19db4d723b66))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/2c7b14cc-b1b5-4ad4-9366-eeba48ece104"
           (reference "R35") (unit 1)
         )
@@ -595,7 +595,7 @@
     )
     (pin "1" (uuid ed882105-e988-4e1c-9478-78d25057bc9f))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/2c7b14cc-b1b5-4ad4-9366-eeba48ece104"
           (reference "#PWR043") (unit 1)
         )
@@ -621,7 +621,7 @@
     (pin "1" (uuid bf9d7b37-8e08-4bd2-866b-68238c217689))
     (pin "2" (uuid 74c1cfc7-7d22-43a6-a745-5e9ebb672e91))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/2c7b14cc-b1b5-4ad4-9366-eeba48ece104"
           (reference "R34") (unit 1)
         )
@@ -646,7 +646,7 @@
     )
     (pin "1" (uuid 14dba05b-aa84-4c74-949f-f78e896e9700))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/2c7b14cc-b1b5-4ad4-9366-eeba48ece104"
           (reference "#PWR042") (unit 1)
         )
@@ -671,7 +671,7 @@
     )
     (pin "1" (uuid d527ee59-52aa-42c4-aff4-864adf5c0138))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/2c7b14cc-b1b5-4ad4-9366-eeba48ece104"
           (reference "#PWR039") (unit 1)
         )
@@ -697,7 +697,7 @@
     (pin "1" (uuid b333ad69-567f-4730-be50-1cbcbeac317a))
     (pin "2" (uuid 023db83b-54d8-41e8-ac52-4f53083862b5))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/2c7b14cc-b1b5-4ad4-9366-eeba48ece104"
           (reference "R29") (unit 1)
         )
@@ -723,7 +723,7 @@
     (pin "1" (uuid d5b41e99-7554-4c1a-91cf-7190be80aabd))
     (pin "2" (uuid 9e70fee8-e1c6-4382-ab41-edbf5fa8f437))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/2c7b14cc-b1b5-4ad4-9366-eeba48ece104"
           (reference "R32") (unit 1)
         )
@@ -748,7 +748,7 @@
     )
     (pin "1" (uuid cce983f6-44bd-4dc3-9ef4-3bb4bdc64d49))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/2c7b14cc-b1b5-4ad4-9366-eeba48ece104"
           (reference "#PWR040") (unit 1)
         )
@@ -773,7 +773,7 @@
     )
     (pin "1" (uuid 6a06f13f-8895-4cd6-b162-c75d55f6cdd3))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/2c7b14cc-b1b5-4ad4-9366-eeba48ece104"
           (reference "#PWR038") (unit 1)
         )
@@ -799,7 +799,7 @@
     (pin "1" (uuid d0e473d7-ea17-429a-943b-2c5c9300603e))
     (pin "2" (uuid 832a5a11-bee9-44c8-a835-b718cdc0d351))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/2c7b14cc-b1b5-4ad4-9366-eeba48ece104"
           (reference "C35") (unit 1)
         )
@@ -825,7 +825,7 @@
     (pin "1" (uuid 9757493c-0039-436f-b5b2-aede29de689f))
     (pin "2" (uuid f2e3cc52-f74a-4eb0-a21e-6ab2e32201d0))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/2c7b14cc-b1b5-4ad4-9366-eeba48ece104"
           (reference "SW10") (unit 1)
         )
@@ -851,7 +851,7 @@
     (pin "1" (uuid 83e3e715-d8e2-4442-9ec5-4a620a9036ec))
     (pin "2" (uuid fe936ae8-8970-4984-96b7-0c0d26914671))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/2c7b14cc-b1b5-4ad4-9366-eeba48ece104"
           (reference "C34") (unit 1)
         )
@@ -877,7 +877,7 @@
     (pin "1" (uuid 38727b01-fea4-4ebc-a0ff-3d057f9d1248))
     (pin "2" (uuid ff347aba-88b4-4062-8978-c99a8b5d5108))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/2c7b14cc-b1b5-4ad4-9366-eeba48ece104"
           (reference "SW9") (unit 1)
         )
@@ -902,7 +902,7 @@
     )
     (pin "1" (uuid 092b55ab-f0ec-4864-a62f-9fcee5b3d0a6))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/2c7b14cc-b1b5-4ad4-9366-eeba48ece104"
           (reference "#PWR044") (unit 1)
         )
@@ -928,7 +928,7 @@
     (pin "1" (uuid f7e977bf-b5a9-479c-92c7-f55cebdf6c84))
     (pin "2" (uuid d8a02b83-8954-42e9-a4f3-728c6360b785))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/2c7b14cc-b1b5-4ad4-9366-eeba48ece104"
           (reference "C33") (unit 1)
         )
@@ -953,7 +953,7 @@
     )
     (pin "1" (uuid a44bc64f-1b27-45c0-894e-ecc3a2f23061))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/2c7b14cc-b1b5-4ad4-9366-eeba48ece104"
           (reference "#PWR037") (unit 1)
         )
@@ -979,7 +979,7 @@
     (pin "1" (uuid 7d0cebf9-2841-4764-9e89-5a8f87ffe9e9))
     (pin "2" (uuid 0e95483f-4bea-4e61-a262-ac68d9f64327))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/2c7b14cc-b1b5-4ad4-9366-eeba48ece104"
           (reference "SW8") (unit 1)
         )
@@ -1005,7 +1005,7 @@
     (pin "1" (uuid 007a2e24-ba6f-4758-8ae1-fc89dfaf57f5))
     (pin "2" (uuid 1b71f5a8-e09d-4c59-9f6b-26f8ace14b44))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/2c7b14cc-b1b5-4ad4-9366-eeba48ece104"
           (reference "SW7") (unit 1)
         )
@@ -1031,7 +1031,7 @@
     (pin "1" (uuid 0fbb9085-7419-400e-8ea8-0a3e67a90c64))
     (pin "2" (uuid e4a85f35-ef81-4725-9462-ad9b792fa921))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/2c7b14cc-b1b5-4ad4-9366-eeba48ece104"
           (reference "C36") (unit 1)
         )
@@ -1057,7 +1057,7 @@
     (pin "1" (uuid 5d2e668a-a04f-40f4-83f1-f519d4f9560d))
     (pin "2" (uuid 7fd264f4-5df1-4362-93ee-4f3a8bd1b648))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/2c7b14cc-b1b5-4ad4-9366-eeba48ece104"
           (reference "R36") (unit 1)
         )
@@ -1082,7 +1082,7 @@
     )
     (pin "1" (uuid ca77f034-fa15-4fda-88ed-9985b76fc734))
     (instances
-      (project "MOTOR"
+      (project "SteeringWheel"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/2c7b14cc-b1b5-4ad4-9366-eeba48ece104"
           (reference "#PWR041") (unit 1)
         )
