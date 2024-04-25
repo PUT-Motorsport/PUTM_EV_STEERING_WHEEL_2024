@@ -4,4 +4,5 @@
   (lib (name "model")(type "KiCad")(uri "${KIPRJMOD}/hardware/TL59NF160Q/KiCad")(options "")(descr ""))
   (lib (name "KiCad")(type "KiCad")(uri "${KIPRJMOD}/hardware/7914J-1-000E/KiCad")(options "")(descr ""))
   (lib (name "Logos")(type "KiCad")(uri "${KIPRJMOD}/hardware/Logos.pretty")(options "")(descr ""))
+  (lib (name "ftsh-107-01-l-dv-k-a")(type "KiCad")(uri "${KIPRJMOD}/hardware/ftsh-107-01-l-dv-k-a")(options "")(descr ""))
 )
