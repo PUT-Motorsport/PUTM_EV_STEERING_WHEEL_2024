@@ -58,7 +58,32 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|133850001|119065982|aee3fac1-9c10-44af-828e-b4f7e0170ccd|4eb272f6-53c6-4506-a2b9-f8e22eccc74e",
+        "footprint_type_mismatch|128155000|91350000|ae2b2b6e-e2cf-4e37-8285-8ba1dd165820|00000000-0000-0000-0000-000000000000",
+        "footprint_type_mismatch|155250000|108575000|dafb81be-a7cb-47e5-9ddb-c321ea9f72da|00000000-0000-0000-0000-000000000000",
+        "hole_clearance|154425000|104950000|3b44e437-ba74-4912-93e8-0edfe31f4274|b1d4bf2b-e324-4535-aad3-b5846b686057",
+        "hole_clearance|154425000|105850000|3b44e437-ba74-4912-93e8-0edfe31f4274|75c469ff-7ae8-4694-9baa-160ffa30e00b",
+        "hole_clearance|154425000|111300000|eca31477-d54a-4eba-8d5e-8cfb7b789b37|ecc5b453-7952-46ff-8e0c-5bb4f0d7c698",
+        "hole_clearance|154425000|112200000|eca31477-d54a-4eba-8d5e-8cfb7b789b37|db81aa8c-17bb-4121-b847-3fc16a2294cb",
+        "hole_clearance|156075000|104950000|3b44e437-ba74-4912-93e8-0edfe31f4274|214e1d24-5528-44e6-8f4e-108898ad6f84",
+        "hole_clearance|156075000|105850000|3b44e437-ba74-4912-93e8-0edfe31f4274|9e9d4524-2814-49ac-9f14-8f23352ad42b",
+        "hole_clearance|156075000|111300000|eca31477-d54a-4eba-8d5e-8cfb7b789b37|4c0be7d6-6057-46b9-884a-dcc83ca326f7",
+        "hole_clearance|156075000|112200000|eca31477-d54a-4eba-8d5e-8cfb7b789b37|bcfe6f43-4965-46a8-b789-4e08c2218f69",
+        "lib_footprint_issues|111000000|130000000|101ab41c-b61a-4b0c-a7b8-cbf934051ca9|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_issues|111000000|70000000|8c41db74-615f-4f4e-8198-3b31e5855b98|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_issues|171000000|130000000|fffd8da1-0a69-4700-8254-fbb88363b804|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_issues|171000000|70000000|99c1a7b0-e2c5-4a32-bf74-9a6a083f606f|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|126382606|128137863|264e49b1-81ea-44b0-b443-56a0acfc08ef|00000000-0000-0000-0000-000000000000",
+        "missing_courtyard|110500000|130500000|101ab41c-b61a-4b0c-a7b8-cbf934051ca9|00000000-0000-0000-0000-000000000000",
+        "missing_courtyard|112250000|70000000|8c41db74-615f-4f4e-8198-3b31e5855b98|00000000-0000-0000-0000-000000000000",
+        "missing_courtyard|126000000|128000000|1df6064f-9c12-42ab-a6e8-ebee513b3bd1|00000000-0000-0000-0000-000000000000",
+        "missing_courtyard|126000000|128000000|264e49b1-81ea-44b0-b443-56a0acfc08ef|00000000-0000-0000-0000-000000000000",
+        "missing_courtyard|170250000|71000000|99c1a7b0-e2c5-4a32-bf74-9a6a083f606f|00000000-0000-0000-0000-000000000000",
+        "missing_courtyard|171000000|129500000|fffd8da1-0a69-4700-8254-fbb88363b804|00000000-0000-0000-0000-000000000000",
+        "silk_overlap|133919315|119439487|f5ac7df6-6b68-48a3-8b5f-9ee2c96e893b|7c54d287-ee41-4f2e-afd7-1065ba5bb099",
+        "silk_overlap|133919315|119439487|f5ac7df6-6b68-48a3-8b5f-9ee2c96e893b|8ce738da-7d32-4806-9ee9-f82cb12b641b"
+      ],
       "meta": {
         "version": 2
       },
@@ -570,13 +595,55 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Oznaczenie"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
